@@ -28,7 +28,13 @@ function val(){
 
 }
 
-function clear(){
+function cls(){
 
     document.getElementById("txt").value="";
+    document.getElementById("txt1").value="";
+    document.getElementById("txtar").value="";
+    document.getElementById("pwd").value="";
+    document.getElementById("cpwd").value="";
+    document.getElementById("phno").value="";
+    document.getElementById("dob").value="";
 }
