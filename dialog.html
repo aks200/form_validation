@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+    <head>
+        <title>Dialog box</title>
+    </head>
+
+    <body>
+        <script>
+        
+        let x=prompt("Who is there","");
+
+        if(x=="admin"){
+            let pwd=prompt("Enter password","");
+
+            if(pwd=="the master"){
+                alert("welcome");
+            }
+
+            else if(pwd==""){
+                alert("cancelled");
+            }
+            else{
+                alert("wrong password");
+            }
+
+        }
+
+        else if(x==""){
+            alert("cancelled");
+        }
+
+        else{
+            alert("I don't know");
+        }
+        </script>
+    </body>
+</html>
